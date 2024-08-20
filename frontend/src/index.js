@@ -14,12 +14,16 @@ import "./assets/styles/index.css";
 import App from "./App";
 import HomePage from "./pages/HomePage";
 import About from "./components/About";
+import Projects from "./pages/ProjectsPage.jsx";
+import Education from "./components/education.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App />}>
       <Route index={true} path="/" element={<HomePage />} />
       <Route path="/about" element={<About />} />
+      <Route path="/projects" element={<Projects />} />
+      <Route path="/education" element={<Education />} />
     </Route>
   )
 );

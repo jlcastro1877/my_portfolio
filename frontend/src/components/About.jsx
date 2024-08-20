@@ -45,12 +45,13 @@ const About = () => {
               </Card.Text>
               <Card.Text>
                 In August 2024, I completed an intensive BootCamp in Full Stack
-                Web Development, where I honed my skills and expanded my
-                knowledge across both front-end and back-end technologies. I am
-                currently seeking opportunities as a Front-End or Back-End
-                Developer, or in a combined Full Stack role. My greatest
-                strength lies in backend development, where I excel in creating
-                efficient, scalable, and reliable server-side solutions.
+                Web Development at the University of Utah, where I honed my
+                skills and expanded my knowledge across both front-end and
+                back-end technologies. I am currently seeking opportunities as a
+                Front-End or Back-End Developer, or in a combined Full Stack
+                role. My greatest strength lies in backend development, where I
+                excel in creating efficient, scalable, and reliable server-side
+                solutions.
               </Card.Text>
             </Card.Body>
           </Card>
