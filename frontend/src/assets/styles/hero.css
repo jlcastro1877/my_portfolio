@@ -1,0 +1,56 @@
+/* Hero.css */
+.hero-container {
+  height: 80vh; /* Adjust the height of the container as needed */
+  display: flex;
+}
+
+.text-column,
+.image-column {
+  height: 100%; /* Ensure columns take up the full height of the container */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-column {
+  background-color: #343a40; /* Dark background for text side */
+  color: #fff;
+}
+
+.image-column {
+  background-color: #f8f9fa; /* Light background for image side */
+}
+
+.text-content h1 {
+  font-size: 2.5rem; /* Adjust font size to fit within the reduced height */
+}
+
+.text-content p {
+  font-size: 1.2rem; /* Adjust font size to fit within the reduced height */
+}
+
+/* Larger size for circular image */
+.rounded-image {
+  width: 400px; /* Increase width to make the image larger */
+  height: 400px; /* Increase height to match width and maintain circular shape */
+  object-fit: cover; /* Ensures the image covers the circle area without distortion */
+  border-radius: 50%; /* Makes the image circular */
+  /* Optionally add a border or shadow to enhance the appearance */
+  border: 4px solid #ddd; /* Increase border thickness for more emphasis */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Increase shadow size for better visibility */
+}
+
+.social-links {
+  margin-top: 1rem;
+}
+
+.social-icon {
+  color: #fff; /* Icon color */
+  font-size: 2rem; /* Adjust size as needed */
+  margin: 0 0.5rem; /* Spacing between icons */
+  text-decoration: none; /* Remove underline */
+}
+
+.social-icon:hover {
+  color: #ddd; /* Change color on hover */
+}
