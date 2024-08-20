@@ -17,7 +17,7 @@ const Hero = () => {
               </p>
               <div className="social-links">
                 <a
-                  href="https://github.com/yourusername"
+                  href="https://github.com/jlcastro1877"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="social-icon"
@@ -25,7 +25,7 @@ const Hero = () => {
                   <i className="fab fa-github"></i>
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/yourusername"
+                  href="https://www.linkedin.com/in/jorge-castro-mba/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="social-icon"

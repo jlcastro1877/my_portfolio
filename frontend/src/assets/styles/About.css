@@ -1,0 +1,46 @@
+/* About.css */
+.card {
+  background-color: #343a40; /* Dark background color */
+}
+
+.card-header,
+.card-title {
+  color: #f8f9fa; /* Light text color */
+}
+
+.card-text {
+  color: #e9ecef; /* Slightly lighter text color for better readability */
+}
+
+.btn-primary {
+  background-color: #007bff; /* Bootstrap default primary color or customize as needed */
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+  border-color: #004085;
+}
+
+/* About.css */
+.card ul {
+  padding-left: 20px; /* Add padding to indent the bullet points */
+}
+
+.card li {
+  margin-bottom: 10px; /* Add space between list items */
+  list-style-type: disc; /* Ensures bullet points are displayed */
+}
+
+.card li strong {
+  color: #f8f9fa; /* Light color for the item titles to stand out */
+}
+
+/* Ensure the bullet points are visible on dark background */
+.card li {
+  color: #e9ecef; /* Light text color for better readability */
+}
+
+.card ul li {
+  padding-left: 20px; /* Ensure padding so bullet points are visible */
+}
