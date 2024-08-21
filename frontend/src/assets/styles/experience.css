@@ -1,0 +1,37 @@
+/* Ensure the card title is white and larger with high specificity */
+.card .card-title {
+  color: #ffffff !important; /* Force white color for the title */
+  font-size: 1.5rem; /* Increase font size for the title */
+  font-weight: bold; /* Make the title bold */
+}
+
+/* Adjust subtitle color if needed */
+.card .card-subtitle {
+  color: #e9ecef; /* Light color for subtitles */
+  font-size: 1.2rem; /* Slightly larger font size for the subtitle */
+}
+
+/* General card styles */
+.card {
+  border: 1px solid #343a40; /* Dark border for cards */
+  background-color: #343a40; /* Dark background for cards */
+  height: 100%; /* Ensure cards fill their container */
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+}
+
+.card-img-top {
+  height: 150px; /* Adjust image height for cards */
+  object-fit: cover; /* Ensure the image covers the area */
+}
+
+.card-text {
+  color: #e9ecef; /* Light color for text */
+}
+
+/* Add responsive adjustments if necessary */
+@media (max-width: 768px) {
+  .card-img-top {
+    height: 120px; /* Adjust image height for smaller screens */
+  }
+}
