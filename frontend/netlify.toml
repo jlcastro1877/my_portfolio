@@ -1,0 +1,6 @@
+[build]
+  publish = "build" # Directory where your React build output is located
+  functions = "netlify/functions" # Directory where your serverless functions are located
+
+[build.environment]
+  NODE_VERSION = "16" # Or the Node.js version you're using
