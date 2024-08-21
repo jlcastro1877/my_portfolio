@@ -1,5 +1,6 @@
 [build]
-  # Navigate to the 'frontend' directory and run the build command
   command = "cd frontend && npm install && npm run build"
-  # Specify the directory to publish
   publish = "frontend/build"
+
+[functions]
+  directory = "frontend/netlify/functions"
