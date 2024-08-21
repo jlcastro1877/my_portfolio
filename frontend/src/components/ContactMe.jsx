@@ -26,7 +26,7 @@ const ContactMe = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    fetch("/api/send-email", {
+    fetch("/.netlify/functions/sendEmail", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -35,12 +35,16 @@ const ContactMe = () => {
     })
       .then((response) => response.json())
       .then((data) => {
-        setStatus("Form submitted successfully!");
-        setFormData({
-          name: "",
-          email: "",
-          message: "",
-        });
+        if (data.success) {
+          setStatus("Form submitted successfully!");
+          setFormData({
+            name: "",
+            email: "",
+            message: "",
+          });
+        } else {
+          setStatus("Failed to submit form. Please try again.");
+        }
       })
       .catch((error) => {
         setStatus("Failed to submit form. Please try again.");
