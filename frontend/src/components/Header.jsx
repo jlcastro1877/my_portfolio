@@ -25,11 +25,16 @@ const Header = () => {
               <Nav.Link as={Link} to="/experience" className="nav-links-header">
                 Experience
               </Nav.Link>
-              <Nav.Link as={Link} to="/resume" className="nav-links-header">
-                Resume
-              </Nav.Link>
               <Nav.Link as={Link} to="/contact" className="nav-links-header">
                 Contact Me
+              </Nav.Link>
+              <Nav.Link
+                href="/jorge_resume.pdf"
+                className="nav-links-header"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Resume
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>

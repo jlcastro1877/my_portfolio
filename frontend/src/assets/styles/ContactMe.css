@@ -20,3 +20,13 @@
   background-color: #0056b3;
   border-color: #004085;
 }
+
+/* Center the submit button */
+.form-container {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-container {
+  margin-top: 20px; /* Optional: Adds some spacing above the button */
+}

@@ -4,6 +4,9 @@ import myPhoto from "../assets/images/hero-img.jpeg"; // Update with the correct
 import "../assets/styles/hero.css"; // Make sure this CSS file is correctly imported
 
 const Hero = () => {
+  const name = "jlcastro1877@gmail.com";
+  const phone = "(385)299-8543"; // Replace with your actual phone number
+
   return (
     <div className="hero-container">
       <Container fluid className="h-100">
@@ -32,6 +35,14 @@ const Hero = () => {
                 >
                   <i className="fab fa-linkedin"></i>
                 </a>
+              </div>
+              <div className="contact-info mt-3">
+                <p>{name}</p>
+                <p>
+                  <a href={`tel:${phone}`} className="text-light">
+                    {phone}
+                  </a>
+                </p>
               </div>
             </div>
           </Col>

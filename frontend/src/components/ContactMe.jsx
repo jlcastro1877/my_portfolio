@@ -23,35 +23,29 @@ const ContactMe = () => {
   };
 
   // Handle form submission
-  const handleSubmit = async (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
 
-    try {
-      const response = await fetch("/api/send-email", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(formData),
-      });
-
-      // Check if the response is JSON
-      if (response.ok) {
-        const data = await response.json();
+    fetch("/api/send-email", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(formData),
+    })
+      .then((response) => response.json())
+      .then((data) => {
         setStatus("Form submitted successfully!");
         setFormData({
           name: "",
           email: "",
           message: "",
         });
-      } else {
-        const errorText = await response.text();
-        throw new Error(`Error: ${errorText}`);
-      }
-    } catch (error) {
-      setStatus("Failed to submit form. Please try again.");
-      console.error("Error:", error);
-    }
+      })
+      .catch((error) => {
+        setStatus("Failed to submit form. Please try again.");
+        console.error("Error:", error);
+      });
   };
 
   return (
@@ -97,9 +91,13 @@ const ContactMe = () => {
                 required
               />
             </Form.Group>
-            <Button variant="primary" type="submit">
-              Send
-            </Button>
+            <div className="form-container">
+              <div className="btn-container">
+                <Button variant="primary" type="submit">
+                  Send
+                </Button>
+              </div>
+            </div>
             {status && <p className="mt-3 text-success">{status}</p>}
           </Form>
         </Col>

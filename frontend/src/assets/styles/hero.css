@@ -54,3 +54,21 @@
 .social-icon:hover {
   color: #ddd; /* Change color on hover */
 }
+
+/* hero.css */
+.contact-info {
+  margin-top: 20px;
+}
+
+.contact-info p {
+  margin: 5px 0;
+}
+
+.contact-info a {
+  color: #fff; /* Adjust color as needed */
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
