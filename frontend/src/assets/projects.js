@@ -1,7 +1,6 @@
 import KasualImg from "../assets/images/logo-kasual.jpeg";
 import starline from "../assets/images/fitlift.png";
 import forecast from "../assets/images/forecast.jpg";
-import payroll from "../assets/images/payroll.png";
 import Portfolio from "../assets/images/portfolio.png";
 import techblog from "../assets/images/Tech-Blog-making.png";
 
@@ -49,7 +48,7 @@ const projects = [
       "My portfolio features diverse web development projects, including full-stack apps and CMS-style blogs. It highlights my skills in React, Bootstrap, and various backend technologies. Showcased projects include real-time weather apps, e-commerce platforms, and interactive blogs. Explore how I combine innovation with practical solutions in my work.",
     imgSrc: Portfolio, // Replace with actual image path
     githubLink: "https://github.com/jlcastro1877/my_portfolio", // Replace with actual GitHub URL
-    webpageLink: "https://jlcastro1877.github.io/payRoll/", // Replace with actual project webpage URL
+    webpageLink: "", // Replace with actual project webpage URL
   },
 
   // Add more projects as needed
