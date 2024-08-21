@@ -15,7 +15,9 @@ import App from "./App";
 import HomePage from "./pages/HomePage";
 import About from "./components/About";
 import Projects from "./pages/ProjectsPage.jsx";
-import Education from "./components/education.jsx";
+import Education from "./pages/EducationPage.jsx";
+import Experience from "./pages/ExperiencePage.jsx";
+import ContactMe from "./pages/ContactMePage.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -24,6 +26,8 @@ const router = createBrowserRouter(
       <Route path="/about" element={<About />} />
       <Route path="/projects" element={<Projects />} />
       <Route path="/education" element={<Education />} />
+      <Route path="/experience" element={<Experience />} />
+      <Route path="/contact" element={<ContactMe />} />
     </Route>
   )
 );

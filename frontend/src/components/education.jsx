@@ -9,7 +9,7 @@ const Education = () => {
       <Row>
         {education.map((item) => (
           <Col md={6} lg={3} className="mb-4" key={item.id}>
-            <Card className="border-dark text-light">
+            <Card className="border-dark text-light h-100">
               <Card.Img
                 variant="top"
                 src={item.imgSrc}
@@ -18,25 +18,16 @@ const Education = () => {
               />
               <Card.Body className="d-flex flex-column">
                 <Card.Title>{item.title}</Card.Title>
+                <Card.Subtitle className="mb-2 card-subtitle">
+                  {item.degree}
+                </Card.Subtitle>
                 <Card.Text>{item.description}</Card.Text>
-                <div className="d-flex justify-content-between mt-auto">
-                  <a
-                    href={item.githubLink} // Use the correct link or remove if not applicable
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="btn btn-secondary"
-                  >
-                    GitHub
-                  </a>
-                  <a
-                    href={item.webpageLink} // Use the correct link or remove if not applicable
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="btn btn-primary"
-                  >
-                    Visit Website
-                  </a>
-                </div>
+                <Card.Text>{item.Local}</Card.Text>
+                <Card.Text>
+                  <strong>Start Date:</strong> {item.dateFrom}
+                  <br />
+                  <strong>End Date:</strong> {item.dateEnd}
+                </Card.Text>
               </Card.Body>
             </Card>
           </Col>
