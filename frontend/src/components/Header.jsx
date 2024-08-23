@@ -28,14 +28,14 @@ const Header = () => {
               <Nav.Link as={Link} to="/contact" className="nav-links-header">
                 Contact Me
               </Nav.Link>
-              <Nav.Link
+              {/* <Nav.Link
                 href="/jorge_resume.pdf"
                 className="nav-links-header"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 Resume
-              </Nav.Link>
+              </Nav.Link> */}
             </Nav>
           </Navbar.Collapse>
         </Container>
