@@ -13,15 +13,19 @@ const About = () => {
             </Card.Header>
             <Card.Body>
               <Card.Text>
-                Hello, I'm <strong>Jorge Castro</strong>, a seasoned{" "}
-                <strong>Software Developer</strong> with a deep-seated passion
-                for crafting innovative solutions and advancing technology. My
-                journey in software development began in 2002 with{" "}
-                <strong>Visual Basic 6</strong>, a foundational experience that
-                set the stage for my career in technology. As my career evolved,
-                I transitioned to <strong>C#</strong>, allowing me to tackle
-                complex projects and broaden my expertise across diverse
-                applications.
+                <Card.Text>
+                  Hello, I'm <strong>Jorge Castro</strong>, a seasoned{" "}
+                  <strong>Software Developer</strong> with a deep-seated passion
+                  for crafting innovative solutions and advancing technology. My
+                  journey in software development began in 2002 with{" "}
+                  <strong>Visual Basic 6</strong>, a foundational experience
+                  that set the stage for my career in technology. As my career
+                  evolved, I transitioned to <strong>C#</strong>, which enabled
+                  me to tackle complex projects and broaden my expertise. Today,
+                  I specialize in Fullstack Web Development, excelling in both
+                  frontend and backend technologies to deliver comprehensive web
+                  solutions.
+                </Card.Text>
               </Card.Text>
               <Card.Text>
                 During my time at <strong>Apiary Investment Fund</strong> in
