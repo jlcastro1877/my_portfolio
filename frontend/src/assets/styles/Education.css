@@ -1,49 +1,66 @@
-/* Projects.css */
-.card {
+/* Education.css */
+
+/* Card styles */
+.education-card {
   border: 1px solid #343a40; /* Dark border for cards */
   background-color: #343a40; /* Dark background for cards */
   height: 100%; /* Ensure cards fill their container */
   display: flex;
   flex-direction: column; /* Stack elements vertically */
+  color: #ffffff; /* Default text color for all text within the card */
 }
 
-.card-title {
-  color: #f8f9fa; /* Light color for titles */
+/* Title and subtitle styles */
+.education-card-title {
+  color: #ffffff; /* White color for titles */
 }
 
-.card-subtitle {
+.education-card-subtitle {
   color: #ffffff; /* White color for subtitles (degree) */
 }
 
-.card-text {
+.education-card-text {
   color: #e9ecef; /* Light color for text */
 }
 
-.card-img-top {
+/* Image styles */
+.education-card-img {
   height: 200px; /* Set a fixed height for images */
   object-fit: cover; /* Ensure the image covers the area */
 }
 
-.card-body {
+/* Body styles */
+.education-card-body {
   flex: 1; /* Allow the body to expand and fill available space */
 }
 
+/* Button styles */
 .btn-primary {
   background-color: #007bff; /* Customize button color if needed */
   border-color: #007bff;
+  color: #ffffff; /* Ensure button text is white */
 }
 
 .btn-primary:hover {
-  background-color: #0056b3; /* Darker color on hover */
+  background-color: #0056b3; /* Darker shade on hover */
   border-color: #004085;
 }
 
 .btn-secondary {
   margin-right: 10px;
+  background-color: #6c757d; /* Customize secondary button color */
+  border-color: #6c757d;
+  color: #ffffff; /* Ensure button text is white */
 }
 
+.btn-secondary:hover {
+  background-color: #5a6268; /* Darker shade on hover */
+  border-color: #545b62;
+}
+
+/* Responsive adjustments */
 @media (max-width: 768px) {
-  .card-img-top {
+  .education-card-img {
     height: 150px; /* Adjust image height for smaller screens */
   }
 }

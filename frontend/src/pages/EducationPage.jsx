@@ -1,7 +1,7 @@
 import React from "react";
 import Education from "../components/education";
 
-const AboutPage = () => {
+const EducationPage = () => {
   return (
     <>
       <Education />
@@ -9,4 +9,4 @@ const AboutPage = () => {
   );
 };
 
-export default AboutPage;
+export default EducationPage;

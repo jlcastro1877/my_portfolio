@@ -16,6 +16,9 @@ const Header = () => {
               <Nav.Link as={Link} to="/about" className="nav-links-header">
                 About
               </Nav.Link>
+              <Nav.Link as={Link} to="/skill" className="nav-links-header">
+                Skills
+              </Nav.Link>
               <Nav.Link as={Link} to="/projects" className="nav-links-header">
                 Projects
               </Nav.Link>
@@ -29,7 +32,7 @@ const Header = () => {
                 Contact Me
               </Nav.Link>
               <Nav.Link
-                href="/jorge_resume.pdf"
+                href="/jorge_resume1.pdf"
                 className="nav-links-header"
                 target="_blank"
                 rel="noopener noreferrer"
