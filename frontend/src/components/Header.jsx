@@ -32,7 +32,7 @@ const Header = () => {
                 Contact Me
               </Nav.Link>
               <Nav.Link
-                href="/jorge_resume.pdf"
+                href="/jorge_resume1.pdf"
                 className="nav-links-header"
                 target="_blank"
                 rel="noopener noreferrer"
