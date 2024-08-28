@@ -1,52 +1,88 @@
 import React from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
-import experienceData from "../assets/experienceData"; // Import the experience data
 import "../assets/styles/experience.css"; // Import custom CSS for additional styling
 
 const Experience = () => {
   return (
     <Container className="my-5">
-      <h1 className="mb-4">Professional Experience</h1>
-      <Row>
-        {experienceData.map((item) => (
-          <Col md={6} lg={4} className="mb-4" key={item.id}>
-            <Card className="border-dark text-light h-100">
-              <Card.Img
-                variant="top"
-                src={item.imgSrc}
-                alt={item.company}
-                className="card-img-top"
-              />
-              <Card.Body className="d-flex flex-column">
-                <Card.Title
-                  className="card-title"
-                  style={{
-                    color: "#ffffff",
-                    fontSize: "1.5rem",
-                    fontWeight: "bold",
-                  }} // Inline styles for the title
-                >
-                  {item.company}
-                </Card.Title>
-                <Card.Subtitle
-                  className="mb-2 card-subtitle"
-                  style={{ color: "#e9ecef", fontSize: "1.2rem" }} // Inline styles for the subtitle
-                >
-                  {item.title}
-                </Card.Subtitle>
-                <Card.Text className="mb-2">
-                  <strong>From:</strong> {item.dateFrom} <br />
-                  <strong>To:</strong> {item.dateEnd} <br />
-                  <strong>Location:</strong> {item.Local}
-                </Card.Text>
-                <Card.Text
-                  className="description"
-                  dangerouslySetInnerHTML={{ __html: item.description }}
-                />
-              </Card.Body>
-            </Card>
-          </Col>
-        ))}
+      <Row className="justify-content-center">
+        {/* First Card */}
+        <Col xs={12} className="mb-4">
+          <Card className="experience-card border-dark">
+            <Card.Header as="h2" className="experience-card-header text-center">
+              Fullstack Developer at Apiary Investment Fund
+            </Card.Header>
+            <Card.Body>
+              <Card.Subtitle className="mb-2 experience-card-subtitle text-center">
+                January 2018 – February 2022
+              </Card.Subtitle>
+              <Card.Text className="experience-card-text">
+                <ul>
+                  <li>
+                    <strong>Maintained and Enhanced Web Pages:</strong>{" "}
+                    Regularly updated and maintained the company’s web pages to
+                    ensure functionality and performance, fixing bugs and
+                    addressing user-reported issues.
+                  </li>
+                  <li>
+                    <strong>Developed New Features:</strong> Designed and
+                    implemented new features using React, CSS, and HTML,
+                    contributing to an improved user experience and increased
+                    user engagement.
+                  </li>
+                  <li>
+                    <strong>Participated in Page Redesign Project:</strong>{" "}
+                    Actively involved in a major project to rebuild the
+                    company’s web page, collaborating with the team to
+                    re-architect the application with modern technologies and
+                    best practices.
+                  </li>
+                  <li>
+                    <strong>Implemented User Authentication:</strong> Integrated
+                    user authentication and authorization using JWT (JSON Web
+                    Tokens) to enhance security and manage user sessions
+                    effectively.
+                  </li>
+                  <li>
+                    <strong>Managed Database Operations:</strong> Utilized
+                    MongoDB for data management, ensuring efficient data storage
+                    and retrieval, and integrating it with the application
+                    backend.
+                  </li>
+                  <li>
+                    <strong>Created User Profiles:</strong> Developed user
+                    profile functionality, allowing users to create, view, and
+                    edit their profiles, enhancing personalization and user
+                    satisfaction.
+                  </li>
+                </ul>
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>
+
+        {/* Second Card */}
+        <Col xs={12} className="mb-4">
+          <Card className="experience-card border-dark">
+            <Card.Header as="h2" className="experience-card-header text-center">
+              QA Engineer at The Church of Jesus Christ of Latter-day Saints
+            </Card.Header>
+            <Card.Body>
+              <Card.Subtitle className="mb-2 experience-card-subtitle text-center">
+                February 2022 – Present
+              </Card.Subtitle>
+              <Card.Text className="experience-card-text">
+                As a Quality Assurance Engineer at The Church of Jesus Christ of
+                Latter-day Saints, I was responsible for testing user interfaces
+                and RESTful APIs to ensure their functionality and performance.
+                I collaborated with developers working on React applications to
+                troubleshoot and resolve issues. I also created detailed use
+                cases and test plans and employed DevOps practices to streamline
+                the testing and deployment processes.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>
       </Row>
     </Container>
   );

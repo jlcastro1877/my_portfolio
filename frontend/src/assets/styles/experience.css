@@ -1,18 +1,7 @@
-/* Ensure the card title is white and larger with high specificity */
-.card .card-title {
-  color: #ffffff !important; /* Force white color for the title */
-  font-size: 1.5rem; /* Increase font size for the title */
-  font-weight: bold; /* Make the title bold */
-}
-
-/* Adjust subtitle color if needed */
-.card .card-subtitle {
-  color: #e9ecef; /* Light color for subtitles */
-  font-size: 1.2rem; /* Slightly larger font size for the subtitle */
-}
+/* experience.css */
 
 /* General card styles */
-.card {
+.experience-card {
   border: 1px solid #343a40; /* Dark border for cards */
   background-color: #343a40; /* Dark background for cards */
   height: 100%; /* Ensure cards fill their container */
@@ -20,18 +9,33 @@
   flex-direction: column; /* Stack elements vertically */
 }
 
-.card-img-top {
+/* Title styles */
+.experience-card-header {
+  color: #ffffff !important; /* White color for the card header */
+  font-size: 1.5rem; /* Larger font size for the title */
+  font-weight: bold; /* Make the title bold */
+}
+
+/* Subtitle styles */
+.experience-card-subtitle {
+  color: #e9ecef; /* Light color for subtitles */
+  font-size: 1.2rem; /* Slightly larger font size for the subtitle */
+}
+
+/* Text color */
+.experience-card-text {
+  color: #e9ecef; /* Light color for text */
+}
+
+/* Image styles */
+.experience-card-img {
   height: 150px; /* Adjust image height for cards */
   object-fit: cover; /* Ensure the image covers the area */
 }
 
-.card-text {
-  color: #e9ecef; /* Light color for text */
-}
-
-/* Add responsive adjustments if necessary */
+/* Responsive adjustments */
 @media (max-width: 768px) {
-  .card-img-top {
+  .experience-card-img {
     height: 120px; /* Adjust image height for smaller screens */
   }
 }

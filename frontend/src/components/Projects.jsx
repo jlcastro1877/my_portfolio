@@ -9,22 +9,26 @@ const Projects = () => {
       <Row>
         {projects.map((project) => (
           <Col md={6} lg={3} className="mb-4" key={project.id}>
-            <Card className="border-dark text-light">
+            <Card className="project-card border-dark text-light">
               <Card.Img
                 variant="top"
                 src={project.imgSrc}
                 alt={project.title}
-                className="card-img-top"
+                className="project-card-img"
               />
-              <Card.Body className="d-flex flex-column">
-                <Card.Title>{project.title}</Card.Title>
-                <Card.Text>{project.description}</Card.Text>
+              <Card.Body className="project-card-body d-flex flex-column">
+                <Card.Title className="project-card-title">
+                  {project.title}
+                </Card.Title>
+                <Card.Text className="project-card-text">
+                  {project.description}
+                </Card.Text>
                 <div className="d-flex justify-content-between mt-auto">
                   <a
                     href={project.githubLink}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="btn btn-secondary"
+                    className="btn btn-secondary project-card-btn"
                   >
                     GitHub
                   </a>
@@ -32,7 +36,7 @@ const Projects = () => {
                     href={project.webpageLink}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="btn btn-primary"
+                    className="btn btn-primary project-card-btn"
                   >
                     Visit Website
                   </a>

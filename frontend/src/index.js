@@ -18,12 +18,14 @@ import Projects from "./pages/ProjectsPage.jsx";
 import Education from "./pages/EducationPage.jsx";
 import Experience from "./pages/ExperiencePage.jsx";
 import ContactMe from "./pages/ContactMePage.jsx";
+import Skills from "./pages/SkilsPage.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App />}>
       <Route index={true} path="/" element={<HomePage />} />
       <Route path="/about" element={<About />} />
+      <Route path="/skill" element={<Skills />} />
       <Route path="/projects" element={<Projects />} />
       <Route path="/education" element={<Education />} />
       <Route path="/experience" element={<Experience />} />
