@@ -33,10 +33,7 @@ const About = () => {
                 <strong>back-end technologies</strong>. I am now seeking
                 opportunities as a <strong>Front-End</strong> or{" "}
                 <strong>Back-End Developer</strong>, or in a combined{" "}
-                <strong>Full Stack</strong> role. My strongest asset is{" "}
-                <strong>backend development</strong>, where I excel in creating
-                efficient, scalable, and reliable <strong>server-side</strong>
-                solutions.
+                <strong>Full Stack</strong> role.
               </Card.Text>
             </Card.Body>
           </Card>
