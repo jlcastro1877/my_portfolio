@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myPhoto from "../assets/images/jorgeFoto.jpeg"; // Update with the correct path
+import myPhoto from "../assets/images/hero-img.jpeg"; // Update with the correct path
 import "../assets/styles/hero.css"; // Make sure this CSS file is correctly imported
 
 const Hero = () => {
