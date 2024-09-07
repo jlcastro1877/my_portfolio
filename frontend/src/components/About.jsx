@@ -13,27 +13,52 @@ const About = () => {
             </Card.Header>
             <Card.Body>
               <Card.Text className="about-card-text">
-                Hello, I'm <strong>Jorge Castro</strong>, a seasoned{" "}
-                <strong>Software Developer</strong> with a deep-seated passion
-                for crafting innovative solutions and advancing technology. My
-                journey in software development began in 2002 with{" "}
-                <strong>Visual Basic 6</strong>, a foundational experience that
-                set the stage for my career in technology. As my career evolved,
-                I transitioned to <strong>C#</strong>, which enabled me to
-                tackle complex projects and broaden my expertise. Today, I
-                specialize in Fullstack Web Development, excelling in both
-                frontend and backend technologies to deliver comprehensive web
-                solutions.
+                Over the years, I have worked extensively on maintaining and
+                enhancing web pages using <strong>React</strong>. This involved
+                regularly updating and optimizing the company's web pages to
+                ensure top-notch functionality and performance. I implemented
+                performance optimizations with <strong>React’s useMemo</strong>{" "}
+                and <strong>React.memo</strong>, and addressed bugs reported by
+                users.
               </Card.Text>
               <Card.Text className="about-card-text">
-                In August 2024, I completed an intensive{" "}
-                <strong>BootCamp in Full Stack Web Development</strong> at the
-                University of Utah, further honing my skills and expanding my
-                knowledge across both <strong>front-end</strong> and
-                <strong>back-end technologies</strong>. I am now seeking
-                opportunities as a <strong>Front-End</strong> or{" "}
-                <strong>Back-End Developer</strong>, or in a combined{" "}
-                <strong>Full Stack</strong> role.
+                I have also designed and implemented new features using{" "}
+                <strong>React</strong>, including reusable components and
+                complex state management with <strong>Redux</strong>. My work
+                involved utilizing <strong>React Router</strong> for seamless
+                navigation and integrating <strong>CSS-in-JS</strong> for
+                styling.
+              </Card.Text>
+              <Card.Text className="about-card-text">
+                A significant part of my experience includes contributing to a
+                major project to rebuild the company’s web application. I
+                re-architected the application with <strong>React</strong> and{" "}
+                <strong>Redux</strong> to enhance state management, performance,
+                and user experience. I also implemented form handling and
+                validation to improve user interactions.
+              </Card.Text>
+              <Card.Text className="about-card-text">
+                I integrated <strong>user authentication</strong> and
+                authorization using <strong>JWT (JSON Web Tokens)</strong>,
+                ensuring secure user sessions and data protection. I managed
+                authentication state with <strong>Redux</strong> and{" "}
+                <strong>React Context API</strong> to deliver a seamless user
+                experience.
+              </Card.Text>
+              <Card.Text className="about-card-text">
+                Additionally, I handled <strong>database operations</strong>{" "}
+                with <strong>MongoDB</strong> and integrated it with the{" "}
+                <strong>Node.js</strong> backend. I utilized{" "}
+                <strong>Mongoose</strong> for schema validation and efficient
+                data querying.
+              </Card.Text>
+              <Card.Text className="about-card-text">
+                Finally, I developed and maintained{" "}
+                <strong>user profile</strong> functionality, allowing users to
+                create, view, and edit their profiles. I leveraged{" "}
+                <strong>React’s state management</strong> and{" "}
+                <strong>Redux</strong> to handle user data, enhancing
+                personalization and user satisfaction.
               </Card.Text>
             </Card.Body>
           </Card>
