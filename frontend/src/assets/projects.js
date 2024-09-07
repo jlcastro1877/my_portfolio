@@ -25,30 +25,12 @@ const projects = [
   },
   {
     id: 3,
-    title: "Tech-Blog",
-    description:
-      "Developed a CMS-style blog site like to WordPress, allowing developers to publish and comment on posts. Built from scratch and deployed to Render, this app employs the MVC architecture with Handlebars.js for templating, Sequelize for ORM, and express-session for authentication.",
-    imgSrc: techblog, // Replace with actual image path
-    githubLink: "https://github.com/jlcastro1877/Tech-blog", // Replace with actual GitHub URL
-    webpageLink: "https://tech-blog-dkm9.onrender.com/", // Replace with actual project webpage URL
-  },
-  {
-    id: 4,
     title: "Forecast Weather App",
     description:
       "An app that provides real-time weather forecasts and updates using a third-party API. It delivers accurate temperature, conditions, and forecasts to keep users informed.",
     imgSrc: forecast, // Replace with actual image path
     githubLink: "https://github.com/jlcastro1877/weather_forecast", // Replace with actual GitHub URL
     webpageLink: "https://jlcastro1877.github.io/weather_forecast/", // Replace with actual project webpage URL
-  },
-  {
-    id: 5,
-    title: "Portfolio",
-    description:
-      "My portfolio features diverse web development projects, including full-stack apps and CMS-style blogs. It highlights my skills in React, Bootstrap, and various backend technologies. Showcased projects include real-time weather apps, e-commerce platforms, and interactive blogs. Explore how I combine innovation with practical solutions in my work.",
-    imgSrc: Portfolio, // Replace with actual image path
-    githubLink: "https://github.com/jlcastro1877/my_portfolio", // Replace with actual GitHub URL
-    webpageLink: "", // Replace with actual project webpage URL
   },
 
   // Add more projects as needed

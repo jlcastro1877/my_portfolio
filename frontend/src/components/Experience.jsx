@@ -6,80 +6,95 @@ const Experience = () => {
   return (
     <Container className="my-5">
       <Row className="justify-content-center">
-        {/* First Card */}
-        <Col xs={12} className="mb-4">
+        {/* Card for Apiary Investment Fund */}
+        <Col md={6} lg={4} className="mb-4">
           <Card className="experience-card border-dark">
             <Card.Header as="h2" className="experience-card-header text-center">
-              Fullstack Developer at Apiary Investment Fund
+              The Church of Jesus Christ of Latter-Day-Saints
             </Card.Header>
             <Card.Body>
               <Card.Subtitle className="mb-2 experience-card-subtitle text-center">
-                January 2018 – February 2022
+                Software QA Enginner
               </Card.Subtitle>
-              <Card.Text className="experience-card-text">
-                <ul>
-                  <li>
-                    <strong>Maintained and Enhanced Web Pages:</strong>{" "}
-                    Regularly updated and maintained the company’s web pages to
-                    ensure functionality and performance, fixing bugs and
-                    addressing user-reported issues.
-                  </li>
-                  <li>
-                    <strong>Developed New Features:</strong> Designed and
-                    implemented new features using React, CSS, and HTML,
-                    contributing to an improved user experience and increased
-                    user engagement.
-                  </li>
-                  <li>
-                    <strong>Participated in Page Redesign Project:</strong>{" "}
-                    Actively involved in a major project to rebuild the
-                    company’s web page, collaborating with the team to
-                    re-architect the application with modern technologies and
-                    best practices.
-                  </li>
-                  <li>
-                    <strong>Implemented User Authentication:</strong> Integrated
-                    user authentication and authorization using JWT (JSON Web
-                    Tokens) to enhance security and manage user sessions
-                    effectively.
-                  </li>
-                  <li>
-                    <strong>Managed Database Operations:</strong> Utilized
-                    MongoDB for data management, ensuring efficient data storage
-                    and retrieval, and integrating it with the application
-                    backend.
-                  </li>
-                  <li>
-                    <strong>Created User Profiles:</strong> Developed user
-                    profile functionality, allowing users to create, view, and
-                    edit their profiles, enhancing personalization and user
-                    satisfaction.
-                  </li>
-                </ul>
-              </Card.Text>
+              <Card.Subtitle className="mb-2 experience-card-subtitle text-center">
+                February 2022 – Present
+              </Card.Subtitle>
             </Card.Body>
           </Card>
         </Col>
 
-        {/* Second Card */}
-        <Col xs={12} className="mb-4">
+        <Col md={6} lg={4} className="mb-4">
           <Card className="experience-card border-dark">
             <Card.Header as="h2" className="experience-card-header text-center">
-              QA Engineer at The Church of Jesus Christ of Latter-day Saints
+              Apiary Investment Fund
             </Card.Header>
             <Card.Body>
               <Card.Subtitle className="mb-2 experience-card-subtitle text-center">
-                February 2022 – Present
+                Software Enginner
               </Card.Subtitle>
-              <Card.Text className="experience-card-text">
-                As a Quality Assurance Engineer at The Church of Jesus Christ of
-                Latter-day Saints, I was responsible for testing user interfaces
-                and RESTful APIs to ensure their functionality and performance.
-                I collaborated with developers working on React applications to
-                troubleshoot and resolve issues. I also created detailed use
-                cases and test plans and employed DevOps practices to streamline
-                the testing and deployment processes.
-              </Card.Text>
+              <Card.Subtitle className="mb-2 experience-card-subtitle text-center">
+                Jan 2018 – Feb - 2022
+              </Card.Subtitle>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col md={6} lg={4} className="mb-4">
+          <Card className="experience-card border-dark">
+            <Card.Header as="h2" className="experience-card-header text-center">
+              Serveng Civilsan
+            </Card.Header>
+            <Card.Body>
+              <Card.Subtitle className="mb-2 experience-card-subtitle text-center">
+                Functional Business Analyst
+              </Card.Subtitle>
+              <Card.Subtitle className="mb-2 experience-card-subtitle text-center">
+                Mar 2014 – Feb - 2016
+              </Card.Subtitle>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col md={6} lg={4} className="mb-4">
+          <Card className="experience-card border-dark">
+            <Card.Header as="h2" className="experience-card-header text-center">
+              Totvs Ibirapuera
+            </Card.Header>
+            <Card.Body>
+              <Card.Subtitle className="mb-2 experience-card-subtitle text-center">
+                Software Implementation Specialist
+              </Card.Subtitle>
+              <Card.Subtitle className="mb-2 experience-card-subtitle text-center">
+                Sep 2013 – Mar - 2014
+              </Card.Subtitle>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col md={6} lg={4} className="mb-4">
+          <Card className="experience-card border-dark">
+            <Card.Header as="h2" className="experience-card-header text-center">
+              Conexao Sistemas de Protese
+            </Card.Header>
+            <Card.Body>
+              <Card.Subtitle className="mb-2 experience-card-subtitle text-center">
+                Software Engineer
+              </Card.Subtitle>
+              <Card.Subtitle className="mb-2 experience-card-subtitle text-center">
+                Nov 2006 – Sep - 2013
+              </Card.Subtitle>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col md={6} lg={4} className="mb-4">
+          <Card className="experience-card border-dark">
+            <Card.Header as="h2" className="experience-card-header text-center">
+              TOTVS
+            </Card.Header>
+            <Card.Body>
+              <Card.Subtitle className="mb-2 experience-card-subtitle text-center">
+                Software Developer
+              </Card.Subtitle>
+              <Card.Subtitle className="mb-2 experience-card-subtitle text-center">
+                Aug 2004 – Nov - 2006
+              </Card.Subtitle>
             </Card.Body>
           </Card>
         </Col>
