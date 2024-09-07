@@ -1,8 +1,6 @@
 import KasualImg from "../assets/images/logo-kasual.jpeg";
 import starline from "../assets/images/fitlift.png";
 import forecast from "../assets/images/forecast.jpg";
-import Portfolio from "../assets/images/portfolio.png";
-import techblog from "../assets/images/Tech-Blog-making.png";
 
 const projects = [
   {

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a126d71e.css",
-    "main.js": "/static/js/main.6eec8cb7.js",
+    "main.css": "/static/css/main.becea915.css",
+    "main.js": "/static/js/main.80f275c8.js",
     "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
     "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
     "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
@@ -11,20 +11,16 @@
     "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
     "static/media/hero-img.jpeg": "/static/media/hero-img.1ffa28cbdb8d72316d03.jpeg",
     "static/media/fa-regular-400.woff2": "/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
-    "static/media/Tech-Blog-making.png": "/static/media/Tech-Blog-making.c52bd9827995ae2cc189.png",
     "static/media/ung.png": "/static/media/ung.056ce406f82cea6bb296.png",
-    "static/media/lds_lg.jpeg": "/static/media/lds_lg.1da7d2ea224b516e030c.jpeg",
     "static/media/forecast.jpg": "/static/media/forecast.e088860f0e5e37b77fe5.jpg",
-    "static/media/apiary2.png": "/static/media/apiary2.c89e78497e6ea1c3cd94.png",
     "static/media/fa-v4compatibility.ttf": "/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
-    "static/media/portfolio.png": "/static/media/portfolio.7c39dec2289cf6f6d3e9.png",
     "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/index.html",
-    "main.a126d71e.css.map": "/static/css/main.a126d71e.css.map",
-    "main.6eec8cb7.js.map": "/static/js/main.6eec8cb7.js.map"
+    "main.becea915.css.map": "/static/css/main.becea915.css.map",
+    "main.80f275c8.js.map": "/static/js/main.80f275c8.js.map"
   },
   "entrypoints": [
-    "static/css/main.a126d71e.css",
-    "static/js/main.6eec8cb7.js"
+    "static/css/main.becea915.css",
+    "static/js/main.80f275c8.js"
   ]
 }
